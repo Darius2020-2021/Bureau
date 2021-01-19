@@ -1,19 +1,20 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import { FormsModule} from '@angular/forms';
+
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { TryAppComponent } from './try-app/try-app.component';
+import { BarreComponent } from './barre/barre.component';
+import { ListeComponent } from './liste/liste.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    TryAppComponent
+    BarreComponent,
+    ListeComponent
   ],
   imports: [
     BrowserModule,
-    FormsModule,
-    AppRoutingModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]

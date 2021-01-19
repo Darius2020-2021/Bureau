@@ -1,0 +1,12 @@
+<h2 class= fw-bolde>
+    <ul>
+        <li *ngFor ="let Iphone of iphone" >
+            <div [title]="Iphone.produit + ' info'">
+                {{Iphone.produit}}
+            </div>   
+            <p *ngIf = "iphone.description">
+                description : {{ iphone.description }}
+            </p>   
+        </li>
+    </ul>
+</h2>
