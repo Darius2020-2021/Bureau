@@ -1,0 +1,6 @@
+__________________________________________________________________________le jeu du TIC TAC______________________________________________________________________________
+1.c'est un jeu de plateforme 
+2.le jouer c'est le rond (O) et l'ordi c'est la croix (X)
+3.il y a des cases dans laquelle le joueur doit cliquer sur une case pour pour marquuer son rond 
+4.lorsque le joueurs aura jouer l'ordi va a son tour jouer n'importe ou sur la plateforme 
+5.lorsque toutes les cases sont rempli la partie s'arrete et le joueur aura le choix de refaire une game ou s'arreté

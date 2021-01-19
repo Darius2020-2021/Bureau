@@ -1,0 +1,114 @@
+
+h1
+{
+    text-align: center;
+    font-size: 45px;
+    color:#186A3B;
+}
+#but
+{
+     font-size: 30px;
+    color:#186A3B;
+    height: 50px;
+        text-align: center;
+
+}
+#jouer
+{
+     font-size: 30px;
+    color:#186A3B;
+        text-align: center;
+
+}
+#download
+{
+     font-size: 30px;
+    color:#186A3B;
+        text-align: center;
+
+}
+#message
+{
+     font-size: 30px;
+    color:#186A3B;
+        text-align: center;
+
+}
+.had
+{
+   text-align: center;
+}
+p
+{
+text-align: center;
+font-size: 21px;
+font-family: Arial #212F3C;
+}
+section
+{
+}
+.wesh
+{
+    float: left;
+    margin: 10px;
+    height: 500px;
+}
+.casino
+{
+color: #d52d00;
+}
+ul
+{
+    text-align: center;
+font-size: 22px;
+border: 2px black solid;
+}
+.classe
+{
+    display: flex;
+justify-content:center;
+padding: 135px;
+height: 250px;
+}
+li
+{
+    text-align: left;
+}
+.as
+{
+    text-decoration: blink;
+
+}
+header{
+    height:8px
+}
+li{
+    text-decoration: blink;
+
+}
+footer
+{
+    background-color:black;
+    display:flex;
+    justify-content:space-around;
+    margin:20px;
+}
+.lien
+{
+font-size: 21px;
+font-family: Arial #212F3C;
+text-decoration: blink;
+text-align: center;
+}
+.somme
+{
+    text-decoration: underline;
+}
+.as:hover
+{
+        text-decoration: underline;
+}
+.lien:hover
+{
+            text-decoration: underline;
+}

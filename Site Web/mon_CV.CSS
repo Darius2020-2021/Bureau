@@ -1,0 +1,28 @@
+.titre
+{
+    color:blue;
+}
+.dev
+{
+    text-decoration: underline;
+    font-size: 20px
+}
+.prog
+{
+    text-decoration: underline;
+    font-size: 20px
+}
+.hack
+{
+    text-decoration: underline;
+    font-size: 20px
+}
+.med
+{
+    color:red;
+    text-align:Center
+}
+body
+{
+    background-color:black
+}

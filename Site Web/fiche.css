@@ -1,0 +1,38 @@
+h1
+{
+    color: #fa8072;
+    font-size: 30px
+}
+figure
+{
+    font-size: 2em;
+ text-align: center;
+}
+ul
+{
+    border: 1px red solid;
+    box-shadow: 10px 10px 8px black;
+}
+#new:hover
+{
+ font-style:bold;
+}
+a
+{
+    text-decoration: blink;
+}
+div
+{
+    text-decoration: blink;
+    display:flex;
+    justify-content: space-around;
+      border: 10 solid;
+    width: 500px;
+    color: #ff7f50;
+        height: 40px;
+    font-size:30px;
+    max-width: auto;
+    min-width:auto;
+    margin:15px
+}
+
