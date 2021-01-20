@@ -1,12 +1,21 @@
-<h2 class= fw-bolde>
+    <h3 class="title1">
+        les produits:
+    </h3>
     <ul>
-        <li *ngFor ="let Iphone of iphone" >
-            <div [title]="Iphone.produit + ' info'">
-                {{Iphone.produit}}
-            </div>   
-            <p *ngIf = "iphone.description">
-                description : {{ iphone.description }}
-            </p>   
+        <li *ngFor ="let Iphone of Iphones" >
+            <h2 class= fw-bolde>
+                <div [title]="Iphone.produit + ' info'">
+                    {{Iphone.produit}}
+                </div>   
+            </h2>
+            <p *ngIf ="Iphone.description" class=paragraph >
+                description : {{Iphone.description}}
+            </p>
+            <button (click)=achat() class=b1>
+                acheter
+            </button>
+            <button (click)=precomander() class=b2>
+                précommander
+            </button>            
         </li>
     </ul>
-</h2>

@@ -2,9 +2,25 @@
     color : blue;
 }
 .taille{
-    font-size: 30px
+    font-size: 30px;
+    position: relative;
+    top: 30px;
+    left: 20px;
+    font-weight: bold
 }
 .achat{
     font-size: 30px;
 
 }
+.b3{
+    background:white;
+    font-weight: bold;
+    width: 100px;
+    height: 40px;
+    border-radius:10px;
+    margin-bottom: 10px;
+    position:relative;
+    top:-20px;
+    right:-1200px
+}
+
