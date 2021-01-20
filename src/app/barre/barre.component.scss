@@ -3,25 +3,24 @@
 }
 .taille{
     font-size: 30px;
-
+    position: relative;
+    top: 30px;
+    left: 20px;
+    font-weight: bold
 }
 .achat{
     font-size: 30px;
 
 }
 .b3{
-    font-size: 30px;
     background:white;
     font-weight: bold;
     width: 100px;
     height: 40px;
     border-radius:10px;
     margin-bottom: 10px;
-    text-align: center;
     position:relative;
     top:-20px;
     right:-1200px
 }
-.bg-primary {
-    justify-content:space-around
-}
+
