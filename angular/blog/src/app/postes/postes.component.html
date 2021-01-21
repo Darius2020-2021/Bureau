@@ -1,0 +1,16 @@
+<div *ngFor="let poste of postes ">
+    <li  *ngIf="poste.color">
+        {{poste.color}}
+        <h2 class="fs-4" >
+            {{poste.title_poste}}    
+            <div class="para">
+                {{heure | date:'short'}}
+            </div>         
+        </h2>
+        <p *ngIf= "poste.description" class="des">
+            {{poste.description}}
+        </p>
+        <button (click)="love()"> Love it</button>
+        <button (click)="lovent()"> Don't love</button>
+    </li>
+</div>
