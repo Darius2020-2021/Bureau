@@ -5,6 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { PostesComponent } from './postes/postes.component';
 import { ProfilComponent } from './profil/profil.component';
+import { myPosteService } from './service/myPoste.service';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,7 @@ import { ProfilComponent } from './profil/profil.component';
     BrowserModule,
     AppRoutingModule
   ],
-  providers: [],
+  providers: [myPosteService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
