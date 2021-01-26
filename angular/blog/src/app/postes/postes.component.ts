@@ -9,6 +9,7 @@ export class PostesComponent implements OnInit {
   postes=[{
     title_poste:"Mon premier poste",
     description:"j'apprend a devenir le meilleur devloppeur et j'y arriverais , je rencontrera des tas d'obstacles mais j'abandonnerais pas",
+  
   },
   {
     title_poste:"Mon seconde poste",
