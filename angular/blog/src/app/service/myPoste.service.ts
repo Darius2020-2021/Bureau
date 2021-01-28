@@ -1,8 +1,11 @@
 import {Injectable} from '@angular/core';
-import {listPoste} from '../postes/postes.component';
-@Injectable()
+import { publi } from  '../postes/postes.component';
+@Injectable({
+  providedIn: 'root',
+}
+)
 export class myPosteService{
-getPostes(): listPoste[]{
+ getPostes(): publi[]{
   return [
     {
     title_poste:"Mon premier poste",
@@ -18,4 +21,5 @@ getPostes(): listPoste[]{
       }
     ];
 }
+  constructor(){}
 }

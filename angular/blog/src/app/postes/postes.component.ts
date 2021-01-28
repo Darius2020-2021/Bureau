@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component,Input, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 import { myPosteService } from '../service/myPoste.service';
 
@@ -8,7 +8,10 @@ import { myPosteService } from '../service/myPoste.service';
   styleUrls: ['./postes.component.scss']
 })
 export class PostesComponent implements OnInit {
-Postes: listPoste[]= []
+  postes: publi[] = []
+  
+@Input() item = String 
+  publi: any[];
 love(){
   window.alert("vous avez kiffez ce poste")
 };
@@ -18,7 +21,10 @@ lovent(){
 heure = new Date();
   constructor(private myPosteService : myPosteService) { }
   
-  ngOnInit(): void {
+  getPostes(): void {
+    this.publi = this.myPosteService.getPostes();
   }
-
+ngOnInit(){
+  this.getPostes
+}
 }
