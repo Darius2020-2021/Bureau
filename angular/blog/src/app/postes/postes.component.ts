@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
+import { myPosteService } from '../service/myPoste.service';
 
 @Component({
   selector: 'app-postes',
@@ -7,20 +8,7 @@ import { Router } from '@angular/router';
   styleUrls: ['./postes.component.scss']
 })
 export class PostesComponent implements OnInit {
-  postes=[{
-    title_poste:"Mon premier poste",
-    description:"j'apprend a devenir le meilleur devloppeur et j'y arriverais , je rencontrera des tas d'obstacles mais j'abandonnerais pas",
-  
-  },
-  {
-    title_poste:"Mon seconde poste",
-    description:"j'apprend a devenir le meilleur devloppeur et j'y arriverais , je rencontrera des tas d'obstacles mais j'abandonnerais pas",
-  },
-  {
-    title_poste:"Mon dernier poste",
-    description:"j'apprend a devenir le meilleur devloppeur et j'y arriverais , je rencontrera des tas d'obstacles mais j'abandonnerais pas",
-  }
-];
+Postes: listPoste[]= []
 love(){
   window.alert("vous avez kiffez ce poste")
 };
@@ -28,8 +16,8 @@ lovent(){
   window.alert("vous n'avez pas kiffez ce poste")
 };
 heure = new Date();
-  constructor() { }
-
+  constructor(private myPosteService : myPosteService) { }
+  
   ngOnInit(): void {
   }
 
