@@ -1,12 +1,10 @@
 import {Injectable} from '@angular/core';
-import { publi } from  '../postes/postes.component';
 @Injectable({
   providedIn: 'root',
 }
 )
 export class myPosteService{
- getPostes(): publi[]{
-  return [
+ publi =[
     {
     title_poste:"Mon premier poste",
     description:"j'apprend a devenir le meilleur devloppeur et j'y arriverais , je rencontrera des tas d'obstacles mais j'abandonnerais pas",
@@ -20,6 +18,7 @@ export class myPosteService{
         description:"j'apprend a devenir le meilleur devloppeur et j'y arriverais , je rencontrera des tas d'obstacles mais j'abandonnerais pas",
       }
     ];
+
+    constructor(){}
 }
-  constructor(){}
-}
+  

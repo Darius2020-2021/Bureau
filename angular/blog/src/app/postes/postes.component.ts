@@ -8,10 +8,10 @@ import { myPosteService } from '../service/myPoste.service';
   styleUrls: ['./postes.component.scss']
 })
 export class PostesComponent implements OnInit {
-  postes: publi[] = []
+  publis! : any[]
   
 @Input() item = String 
-  publi: any[];
+ 
 love(){
   window.alert("vous avez kiffez ce poste")
 };
@@ -21,10 +21,8 @@ lovent(){
 heure = new Date();
   constructor(private myPosteService : myPosteService) { }
   
-  getPostes(): void {
-    this.publi = this.myPosteService.getPostes();
-  }
+
 ngOnInit(){
-  this.getPostes
+  this.publis = this.myPosteService.publi
 }
 }
