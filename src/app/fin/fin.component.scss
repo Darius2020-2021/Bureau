@@ -1,0 +1,94 @@
+.connect{
+    background-color: #E74C3C;
+    height:420px;
+    color:white;
+    font-weight:bold;
+}
+.slog1{
+    font-size:27px;
+    margin-left: 25px;
+    position:relative;
+    top: 50px;
+    font-family: "Avantgarde", TeX Gyre Adventor,
+    URW Gothic L, sans-serif;
+}
+.form-control{
+    border-radius: 20px;
+    font-size:25px;
+    position:relative;
+    width:355px; 
+    height:40px;
+    position: relative;
+    left: 900px;
+    text-align: center;
+    top: -130px;
+    font-family: "Avantgarde", TeX Gyre Adventor,
+    URW Gothic L, sans-serif;
+    &:focus{
+        text-decoration: none;
+        border: none;
+
+    }
+}
+
+.btn1{
+    border-radius: 20px;
+    font-size:24px;
+    background-color: #2E86C1;
+    width:150px;
+    height: 40px;
+    position: relative;
+    top: -60px;
+    left:570px
+}
+.btn2{
+    border-radius: 20px;
+    font-size:24px;
+    background-color: #2E86C1;
+    width:150px;
+    height: 40px;
+    margin-right: 20px;
+    position: relative;
+    top: -60px;
+    left:554px
+}
+.con{
+    font-size: 45px;
+    font-weight:bold;
+    margin-left: 25px;
+    font-family: "Avantgarde", TeX Gyre Adventor,
+    URW Gothic L, sans-serif;
+
+}
+.fini{
+    background-color: black;
+    height:110px
+}
+.ec1{
+    color:#85929E;
+    position: relative;
+    top:40px;
+    margin-left: 50px;
+    font-family: "Avantgarde", TeX Gyre Adventor,
+    URW Gothic L, sans-serif;
+}
+.ec2{
+    color:#85929E;
+    font-size: 14px;
+    position: relative;
+    top:30px;
+    left:1100px
+}
+.contact{
+    font-size:27px;
+    margin-left: 25px;
+
+}
+.mail{
+    text-decoration:none;
+    color:#2E86C1
+}
+#ins{
+    font-weight:bold;
+    color: white
+}

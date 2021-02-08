@@ -1,0 +1,51 @@
+.titre1{
+    font-weight: bolder;
+    font-size:150px;
+    text-align: center;
+    position:relative;
+    top: 90px;
+    animation: apparition 0.8 ease-out;
+    font-family: "Avantgarde", TeX Gyre Adventor,
+     URW Gothic L, sans-serif;
+}
+@keyframes apparition{
+    from{
+        opacity:0;
+        transform: translateY(100px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+#img{
+    position:relative;
+    top: -400px;
+    right: -1250px
+}
+#tete{
+    margin-bottom:478px
+}
+.slog{
+    text-align: center;
+    position: relative;
+    top: -10px;
+    font-size: 32px;
+    font-weight:bold;
+    color:#17202A;
+    font-family: "Avantgarde", TeX Gyre Adventor,
+    URW Gothic L, sans-serif;
+}
+.sap1:hover{
+    color: #E74C3C; 
+
+}
+.spa{
+    color:#E74C3C;
+    &:hover{
+        color:black
+    }
+}
+.cla1:hover{
+    color: #E74C3C;
+}
