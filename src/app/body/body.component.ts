@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-
+import * as AOS from 'aos';
 @Component({
   selector: 'app-body',
   templateUrl: './body.component.html',
@@ -10,6 +10,9 @@ export class BodyComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+    AOS.init({
+      duration: 1200,
+    })
   }
 
 }

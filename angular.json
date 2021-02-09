@@ -94,10 +94,13 @@
               "src/assets"
             ],
             "styles": [
+              "node_modules/aos/dis/aos.css",
               "../node_modules/bootstrap/dist/css/bootstrap.css",
               "src/styles.scss"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/aos/dist/aos.js"
+            ]
           }
         },
         "lint": {
