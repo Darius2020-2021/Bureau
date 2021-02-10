@@ -1,0 +1,30 @@
+<div class="container">
+  <div class="row">
+  <div class="col-xs-12">
+    <router-outlet></router-outlet>
+    <h1>mes appareils</h1>
+    <ul class="list-group">
+      <app-try-app>[listAppareil]="machine1"</app-try-app>
+      <app-try-app>[listAppareil]="machine2"</app-try-app>
+      <app-try-app>[listAppareil]="machine3"</app-try-app>
+     
+    </ul>
+    <button class="btn btn-success" [disabled]="!auto" (click)="onAllume()">
+      tout allumer
+    </button>
+  </div>
+  </div>
+  </div>  
+  <button (click) = "onClick()" >afficher</button>
+
+  <div *ngIf = "!marcher" >
+    {{nager}}
+  </div>
+  {{nager}}
+  <button routerLink="suivant">la suite</button>
+  <button routerLinkActive="active"><a routerLink="formule">Edit</a></button>
+  <input type="text" class="form-control" [(ngModel)]="nager">
+
+  <div *ngFor="let table of tables ">
+    {{table.x}} {{table.y}}
+  </div>
